@@ -32,6 +32,7 @@
         app:layout_constraintVertical_bias="0.223" />
 
     <EditText
+        android:id="@+id/child"
         android:layout_width="169dp"
         android:layout_height="36dp"
         android:background="#C4C4C4"
@@ -43,9 +44,11 @@
         app:layout_constraintVertical_bias="0.292" />
 
     <Spinner
-        android:id="@+id/spinner2"
+        android:id="@+id/occ"
+        android:background="#C4C4C4"
         android:layout_width="226dp"
         android:layout_height="33dp"
+        android:spinnerMode="dropdown"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.848"
@@ -54,6 +57,7 @@
         app:layout_constraintVertical_bias="0.363" />
 
     <EditText
+        android:id="@+id/age"
         android:layout_width="169dp"
         android:layout_height="36dp"
         android:background="#C4C4C4"
@@ -66,8 +70,10 @@
 
     <Spinner
         android:id="@+id/trans"
+        android:background="#C4C4C4"
         android:layout_width="172dp"
         android:layout_height="30dp"
+        android:spinnerMode="dropdown"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.882"
@@ -76,6 +82,7 @@
         app:layout_constraintVertical_bias="0.499" />
 
     <EditText
+        android:id="@+id/cases"
         android:layout_width="169dp"
         android:layout_height="36dp"
         android:background="#C4C4C4"
@@ -87,6 +94,7 @@
         app:layout_constraintVertical_bias="0.561" />
 
     <EditText
+        android:id="@+id/death"
         android:layout_width="169dp"
         android:layout_height="36dp"
         android:background="#C4C4C4"
@@ -98,9 +106,11 @@
         app:layout_constraintVertical_bias="0.628" />
 
     <Spinner
-        android:id="@+id/comorodity"
+        android:id="@+id/como"
+        android:background="#C4C4C4"
         android:layout_width="172dp"
         android:layout_height="30dp"
+        android:spinnerMode="dropdown"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.79"
@@ -109,9 +119,11 @@
         app:layout_constraintVertical_bias="0.689" />
 
     <Spinner
-        android:id="@+id/pul"
+        android:id="@+id/pulm"
+        android:background="#C4C4C4"
         android:layout_width="172dp"
         android:layout_height="30dp"
+        android:spinnerMode="dropdown"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.882"
@@ -121,8 +133,10 @@
 
     <Spinner
         android:id="@+id/cardio"
+        android:background="#C4C4C4"
         android:layout_width="172dp"
         android:layout_height="30dp"
+        android:spinnerMode="dropdown"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.79"
@@ -131,6 +145,7 @@
         app:layout_constraintVertical_bias="0.883" />
 
     <EditText
+        android:id="@+id/coma"
         android:layout_width="169dp"
         android:layout_height="36dp"
         android:background="#C4C4C4"
@@ -152,6 +167,7 @@
         app:layout_constraintTop_toBottomOf="@+id/cardio"
         app:layout_constraintVertical_bias="0.686"
         app:srcCompat="@drawable/nextp" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

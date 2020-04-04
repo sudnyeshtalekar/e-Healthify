@@ -35,52 +35,29 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/signinbtn" />
 
-    <ImageView
-        android:id="@+id/loginback"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="26dp"
-        android:layout_marginTop="47dp"
-        android:layout_marginEnd="346dp"
-        android:layout_marginBottom="737dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/loginback" />
 
     <EditText
         android:id="@+id/usnam"
         android:layout_width="300dp"
         android:layout_height="49dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="304dp"
-        android:layout_marginEnd="59dp"
-        android:layout_marginBottom="470dp"
+        android:background="@drawable/back"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        android:background="@drawable/back"/>
+        app:layout_constraintVertical_bias="0.39" />
 
     <EditText
         android:id="@+id/pass"
         android:layout_width="300dp"
         android:layout_height="49dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="437dp"
-        android:layout_marginEnd="59dp"
-        android:layout_marginBottom="337dp"
         android:background="@drawable/back"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/usnam"
+        app:layout_constraintVertical_bias="0.236" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

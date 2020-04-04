@@ -27,16 +27,33 @@ public class LoginActivity extends AppCompatActivity {
         signin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (usnam.getText().toString()=="rishik" && pass.getText().toString()=="test"){
+                Intent intent = new Intent(LoginActivity.this, typeform.class);
+                startActivity(intent);
+                /*if (usnam.getText().toString()=="rishik" && pass.getText().toString()=="test"){
 
-                Intent intent = new Intent(LoginActivity.this, FormActivity.class);
-                startActivity(intent);}
-                else{Toast. makeText(getApplicationContext(),"Incorrect login details",Toast. LENGTH_SHORT);}
+                Intent intent = new Intent(LoginActivity.this, typeform.class);
+                startActivity(intent);
+                }
+                else{Toast. makeText(getApplicationContext(),"Incorrect login details",Toast. LENGTH_SHORT);}*/
 
             }
         });
 
 
-
+      /*<ImageView
+        android:id="@+id/loginback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="346dp"
+        android:layout_marginBottom="737dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/loginback" />*/
     }
 }
