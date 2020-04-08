@@ -21,13 +21,13 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        usnam=findViewById(R.id.usnam);
-        pass=findViewById(R.id.pass);
+       // usnam=findViewById(R.id.usnam);
+        //pass=findViewById(R.id.pass);
         signin=findViewById(R.id.signin);
         signin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LoginActivity.this, typeform.class);
+                Intent intent = new Intent(LoginActivity.this, betn.class);
                 startActivity(intent);
                 /*if (usnam.getText().toString()=="rishik" && pass.getText().toString()=="test"){
 

@@ -32,7 +32,7 @@ public class typeform extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_typeform);
 
-        child=findViewById(R.id.child);
+        /*child=findViewById(R.id.child);
         age=findViewById(R.id.age);
         cases=findViewById(R.id.cases);
         death=findViewById(R.id.death);
@@ -44,7 +44,7 @@ public class typeform extends AppCompatActivity {
         trans();
         como();
         pulm();
-        cardio();
+        cardio();*/
 
 
         nextp=findViewById(R.id.nextp);
@@ -52,13 +52,13 @@ public class typeform extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                FirebaseDatabase database = FirebaseDatabase.getInstance();
+                /*FirebaseDatabase database = FirebaseDatabase.getInstance();
                 DatabaseReference myRef = database.getReference("message");
                 myRef.child("child").setValue(child.getText().toString());
                 myRef.child("age").setValue(age.getText().toString());
                 myRef.child("cases").setValue(cases.getText().toString());
                 myRef.child("death").setValue(death.getText().toString());
-                myRef.child("coma").setValue(coma.getText().toString());
+                myRef.child("coma").setValue(coma.getText().toString());*/
                 Intent intent = new Intent(typeform.this, typeform1.class);
                 startActivity(intent);
             }
@@ -69,7 +69,7 @@ public class typeform extends AppCompatActivity {
 
 }
 
-    public void alle() {
+    /*public void alle() {
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("message");
         myRef.child("age").setValue("e");
@@ -301,5 +301,5 @@ public class typeform extends AppCompatActivity {
             }
 
         });
-    }
+    }*/
 }

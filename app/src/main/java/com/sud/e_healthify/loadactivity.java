@@ -24,6 +24,6 @@ public class loadactivity extends AppCompatActivity {
                 finish();
 
             }
-        }, 4000);
+        }, 2000);
     }
 }

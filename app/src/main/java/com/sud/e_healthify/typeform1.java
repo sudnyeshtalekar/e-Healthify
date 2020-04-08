@@ -32,17 +32,17 @@ public class typeform1 extends AppCompatActivity {
         setContentView(R.layout.activity_typeform1);
 
         submit=findViewById(R.id.submit);
-        diu= findViewById(R.id.diu);
+        /*diu= findViewById(R.id.diu);
         plat= findViewById(R.id.plat);
         hbb= findViewById(R.id.hbb);
         dimer= findViewById(R.id.dimer);heart= findViewById(R.id.heart);
         hdl= findViewById(R.id.hdl);
-        charl= findViewById(R.id.charl);blood= findViewById(R.id.blood);trips= findViewById(R.id.trips);
+        charl= findViewById(R.id.charl);blood= findViewById(R.id.blood);trips= findViewById(R.id.trips);*/
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                FirebaseDatabase database = FirebaseDatabase.getInstance();
+                /*FirebaseDatabase database = FirebaseDatabase.getInstance();
                 DatabaseReference myRef = database.getReference("message");
                 myRef.child("diu").setValue(diu.getText().toString());
                 myRef.child("plat").setValue(plat.getText().toString());
@@ -52,9 +52,9 @@ public class typeform1 extends AppCompatActivity {
                 myRef.child("charl").setValue(charl.getText().toString());
                 myRef.child("blood").setValue(blood.getText().toString());
                 myRef.child("heart").setValue(heart.getText().toString());
-                myRef.child("trips").setValue(trips.getText().toString());
+                myRef.child("trips").setValue(trips.getText().toString());*/
                 //alle();
-                Intent intent = new Intent(typeform1.this, mainmenu.class);
+                Intent intent = new Intent(typeform1.this, betn.class);
                 startActivity(intent);
                 myRef.child("counter").setValue("1");
             }

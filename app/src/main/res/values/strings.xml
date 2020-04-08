@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">e-Healthify</string>
+    <string name="app_name">BreakTheChain!</string>
     <string name="title_activity_navbar">navbar</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
