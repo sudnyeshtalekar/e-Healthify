@@ -6,7 +6,7 @@ App developed for Hack-the-Crisis India.
 * These parameters were identified with combined efforts of experts of the healthcare industry and various government bodies.
 
  **These parameters include:** \
- i.          Place\
+ i. Place\
  ii.          Gender\
  iii.          Occupation\
  iv.          Mode of usual transport\
