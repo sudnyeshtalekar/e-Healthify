@@ -3,24 +3,22 @@ App developed for Hack-the-Crisis India.
 # App Features
 To predict the probability of a person getting infected.
 The objective of this system is to predict the probability of a person getting infected by COVID-19.
-To predict the probability, various parameters are taken into consideration.
+To predict the probability, various parameters are taken into consideration. \
 These parameters were identified with combined efforts of experts of the healthcare industry and various government bodies.
- These parameters include:
- i.          Place
- ii.          Gender
- iii.          Occupation
- iv.          Mode of usual transport
- v.          Number of confirmed cases per 1 million population in that region
-vi.          Number of Death case per 1 million population in that region
- vii.          Presence of one or more additional medical conditions
-co-occurring with a primary condition [Hypertension/ diabetes/
-coronary heart disease]
- viii.          Age of the person
-ix.          Neurological coma score
-x.          Pulmonary PaO2 (mmHg)/FiO2
-xi.          Cardiological Mean systolic Arterial pressure (mmHg)
-
-xii.          Diuresis in mL/Day
+ These parameters include: \
+ i.          Place\
+ ii.          Gender\
+ iii.          Occupation\
+ iv.          Mode of usual transport\
+ v.          Number of confirmed cases per 1 million population in that region\
+vi.          Number of Death case per 1 million population in that region\
+ vii.          Presence of one or more additional medical conditions\
+co-occurring with a primary condition [Hypertension/ diabetes/coronary heart disease]\
+ viii.          Age of the person\
+ix.          Neurological coma score\
+x.          Pulmonary PaO2 (mmHg)/FiO2\
+xi.          Cardiological Mean systolic Arterial pressure (mmHg)\
+xii.          Diuresis in mL/Day\
  xiii.       Haematological Platelets 10/L
 xiv.          Hepatic Blood bilirubin (µmol/L)
  xv.          D-dimer concentration in the blood (ng/ml)
