@@ -5,15 +5,14 @@ App developed for Hack-the-Crisis India.
 * To predict the probability, various parameters are taken into consideration. 
 * These parameters were identified with combined efforts of experts of the healthcare industry and various government bodies.
 
- **These parameters include:** 
+ **These parameters include:** \
  i.          Place\
  ii.          Gender\
  iii.          Occupation\
  iv.          Mode of usual transport\
  v.          Number of confirmed cases per 1 million population in that region\
 vi.          Number of Death case per 1 million population in that region\
- vii.          Presence of one or more additional medical conditions\
-co-occurring with a primary condition [Hypertension/ diabetes/coronary heart disease]\
+ vii.          Presence of one or more additional medical conditions co-occurring with a primary condition [Hypertension/diabetes/coronary heart disease]\
  viii.          Age of the person\
 ix.          Neurological coma score\
 x.          Pulmonary PaO2 (mmHg)/FiO2\
