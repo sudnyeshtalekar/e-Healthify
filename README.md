@@ -1,10 +1,9 @@
 # e-Healthify
 App developed for Hack-the-Crisis India.
 # App Features
-To predict the probability of a person getting infected.
-The objective of this system is to predict the probability of a person getting infected by COVID-19.
-To predict the probability, various parameters are taken into consideration. \
-These parameters were identified with combined efforts of experts of the healthcare industry and various government bodies.\
+* The objective of this system is to predict the probability of a person getting infected by COVID-19.\
+* To predict the probability, various parameters are taken into consideration. \
+* These parameters were identified with combined efforts of experts of the healthcare industry and various government bodies.\
 \
  **These parameters include:** \
  i.          Place\
@@ -28,7 +27,9 @@ xvii.          High-density lipoprotein level (milligrams per decilitre)\
 xviii.          One-year mortality for a patient who may have a range of comorbid conditions, such as heart disease, AIDS, or cancer\
 xix.          Concentration of glucose present in the blood (millimoles per litre)\
 xx.          Average number of foreign trips taken by the person per month, considering last 2 years data\
+
 \
+
 * Data of these parameters and the probability of them being affected, of more than 10,000 people is collected.
 * Using this data, an ANN prediction model is built which can predict the probability of a person getting affected by the CoronaVirus.\
 * As the testing procedures for the virus take a lot of time and the testing kits are available in limited supply, this algorithm can be used by the local doctors to predict the probability.\
