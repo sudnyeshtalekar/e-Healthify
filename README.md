@@ -29,8 +29,8 @@ xviii.          One-year mortality for a patient who may have a range of comorbi
 xix.          Concentration of glucose present in the blood (millimoles per litre)\
 xx.          Average number of foreign trips taken by the person per month, considering last 2 years data\
 \
-Data of these parameters and the probability of them being affected, of more than 10,000 people is collected.
-Using this data, an ANN prediction model is built which can predict the probability of a person getting affected by the CoronaVirus.\
-As the testing procedures for the virus take a lot of time and the testing kits are available in limited supply, this algorithm can be used by the local doctors to predict the probability.\
-The input parameters of the algorithm are given as input by the local doctor/physician or medical camps setup by Health Organisations to give a probability score of the patient.
-If the probability of the infection is high, then the patient is kept under isolation and sent for further testing and screening
+* Data of these parameters and the probability of them being affected, of more than 10,000 people is collected.
+* Using this data, an ANN prediction model is built which can predict the probability of a person getting affected by the CoronaVirus.\
+* As the testing procedures for the virus take a lot of time and the testing kits are available in limited supply, this algorithm can be used by the local doctors to predict the probability.\
+* The input parameters of the algorithm are given as input by the local doctor/physician or medical camps setup by Health Organisations to give a probability score of the patient.
+* If the probability of the infection is high, then the patient is kept under isolation and sent for further testing and screening
