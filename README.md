@@ -1,5 +1,6 @@
 # e-Healthify
-App developed for Hack-the-Crisis India.
+App developed for Hack-the-Crisis India.\
+Predicts the infection probability of a person.
 # App Features
 * The objective of this system is to predict the probability of a person getting infected by COVID-19.
 * To predict the probability, various parameters are taken into consideration. 
